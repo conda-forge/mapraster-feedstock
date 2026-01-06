@@ -1,5 +1,5 @@
 {% set name = "mapraster" %}
-{% set version = "2025.12.23" %}
+{% set version = "2026.1.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c348e896fb8ab850be017eda5b222387062fcccab52729be9f77fe14952f736a
+  sha256: 2ad5c16a1b3fab65b71767d09776913ba49b77f49dd6b95df88c5343159c07e5
 
 build:
   noarch: python
